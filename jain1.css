@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex-start;
+    align-items: center;
+    justify-content: center;
+    background: rgb(192, 175, 232);
+  }
+  .beginner img{
+    width: 150px;
+    border-radius: 2px;
+    margin-right: 150px
+  }
+  .beginner h3{
+      color: black;
+  }
