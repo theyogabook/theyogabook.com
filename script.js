@@ -10,12 +10,11 @@ darkBtn.onclick = function(){
 }
 
    if(localStorage.getItem("theme") == "light"){
-    localStorage.setItem("theme", "dark");
-}
-else{
     localStorage.setItem("theme", "light");
 }
-
+else{
+     localStorage.setItem("theme", "light");
+}
 
 if(localStorage.getItem("theme") == "light"){
 darkBtn.classList.remove("dark-btn-on");
@@ -25,15 +24,30 @@ else if(localStorage.getItem("theme") == "dark"){
     darkBtn.classList.add("dark-btn-on");
     document.body.classList.add("dark-theme");
     }
-else{
-localStorage.setItem("theme", "light");
+ else{
+    localStorage.setItem("theme", "light");
+    }
+function search() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('yoga');
+   
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="block";                 
+        }
+    
+    }
+   
 }
 
 
-var message = "**This page is no longer active**";
 
-function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
 
-if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
-document.onmousedown = rtclickcheck;
+
+
