@@ -1,9 +1,9 @@
 canvas {
-    display: block;
+    display: flex;
   }
   
   html, body {
-    margin: 25px;
+    margin: 5px;
     /*background-color: #ce3635;*/
     background-color: #edcce2;
     font-family: Helvetica, sans-serif, sans-serif;
