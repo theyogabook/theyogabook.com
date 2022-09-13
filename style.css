@@ -1,5 +1,5 @@
 canvas {
-    display: flex;
+    display: auto;
   }
   
   html, body {
@@ -8,7 +8,7 @@ canvas {
     background-color: #edcce2;
     font-family: Helvetica, sans-serif, sans-serif;
     font-size: 14px;
-    overflow: hidden; 
+   
   }
   
   h1 {
