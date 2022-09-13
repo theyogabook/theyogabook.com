@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    }
+    body{
+        background: var(--body-color);
+        transition: background 0.3s;
+    }
+    :root{
+       background-color: rgb(5, 130, 57);
+        background-size: cover;
+        background-repeat: no-repeat;
+        --nav-color: #1876F2;
+        --bg-color: #fff;
+        --text-color: #000;
+    
+    }
+    .dark-theme{
+        --body-color: #0a0a0a;
+        --nav-color: #000;
+        --bg-color: #000;
+        --text-color: #fff;
+    }
+
+.wp{
+    color: aqua;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.WP{
+    color: rgb(235, 243, 243);
+    margin: 5px 5px;
+}
