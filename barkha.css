@@ -525,7 +525,7 @@ background: #616161;
   background-color: rgb(119, 205, 238);
   width: 320px;
   padding: 10px 10px;
-  position: absolute;
+  position: center;
   transform: translate(-50%,-50%);
   left: 24%;
   top: 50%;
