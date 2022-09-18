@@ -521,21 +521,20 @@ background: #616161;
   text-decoration: none;
   padding: 8px 0;
 }
-.popup{
+.popup {
   background-color: rgb(119, 205, 238);
   width: 320px;
-  padding: 10px 10px;
-  position: center;
+  padding: 1px 1px;
+  position: absolute;
   transform: translate(-50%,-50%);
   left: 24%;
-  top: 50%;
+  top: 45%;
   border-radius: 8px;
   border-width: thick;
   border-color: rgb(7, 232, 60);
   display: none;
   font-family: "Poppins",sans-serif;
   text-align: center;
-  animation: zoom-in zoom-out 5s 2;
 }
 .popup button{
   display: block;
