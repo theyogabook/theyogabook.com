@@ -84,8 +84,8 @@ canvas {
   }
   
   footer {
-    position: absolute;
-    height: 350px;
+    position: relative;
+    bottom: 0%;
     width: 50%;
     color: white;
     text-align: left;
