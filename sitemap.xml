@@ -1,2 +1,7 @@
-
-https://theyogabook.github.io/theyogabook.com/
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://theyogabook.github.io/theyogabook.com/foo.html</loc>
+    <lastmod>2022-09-28</lastmod>
+  </url>
+</urlset>
