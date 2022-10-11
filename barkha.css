@@ -1,9 +1,9 @@
 *{
-margin: 0;
-padding: 0;
-font-family: 'poppins', sans-serif;
-box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  }
 
 :root{
     background-image: url("https://raw.githubusercontent.com/theyogabook/theyogabook.com/main/3d-realistic-girl-practicing-yoga-nature-female-happiness-landscape-background-3d-rendering_56345-645.jpg");
@@ -84,9 +84,7 @@ width: fit-content;
     width: 20px;
 margin-right: 10px;
 }
-.imp-links{
-    border-bottom: 2px solid #ccc;
-}
+
 .shortcut-links a img{
     width: 20px;
     border-radius: 2px;
@@ -512,9 +510,7 @@ background: #616161;
   font-size: x-large;
   color: red;
   font-weight: 800;
-  display: block;
   width: 150px;
-  position: relative;
   margin: 5px auto;
   background-color: white;
   border-radius: 20px;
@@ -549,4 +545,89 @@ background: #616161;
   border: none;
   outline: none;
   cursor: pointer;
+}
+.rotatingText {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.rotatingText-adjective {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  left: 80px;
+  margin-bottom: 0;
+  margin-top: 242px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.rotatingText-adjective:nth-of-type(1) {
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  color: crimson;
+}
+
+.rotatingText-adjective:nth-of-type(2) {
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 1.75s;
+  color: #f7eb08;
+}
+
+.rotatingText-adjective:nth-of-type(3) {
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+color: rgb(99, 197, 1);
+}
+.rotatingText-adjective:nth-of-type(4) {
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+  color: fuchsia;
+}
+.rotatingText-adjective:nth-of-type(5) {
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 5.25s;
+  animation-fill-mode: forwards;
+  color: rgb(76, 76, 244);
+
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  
+  20%, 80% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -25px, 0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  
+  50%, 100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
