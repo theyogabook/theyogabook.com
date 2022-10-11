@@ -9,7 +9,7 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    background-image: url("file:///C:/Users/user/Desktop/yogabook/theyogabook.com/day_and_night_cycle_by_ryan_sael.gif");
+    background-image: url("https://github.com/theyogabook/theyogabook.com/blob/main/day_and_night_cycle_by_ryan_sael.gif?raw=true");
   }
   .wrapper{
     user-select: none;
