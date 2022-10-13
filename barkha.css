@@ -546,19 +546,18 @@ background: #616161;
   outline: none;
   cursor: pointer;
 }
-
-
 .rotatingText {
   font-family: "Georgia", serif;
   font-size: 17px;
   text-align: left;
+  font-weight: 700;
 }
 .rotatingText-adjective {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  left: 80px;
+  left: 70px;
   margin-bottom: 0;
   margin-top: 238px;
   opacity: 0;
