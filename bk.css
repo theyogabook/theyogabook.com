@@ -5,12 +5,11 @@
     font-family: 'Poppins',sans-serif;
   }
   body{
-    height: 100vh;
     display: flex;
     align-items: left;
     justify-content: left;
     background-image: url("https://raw.githubusercontent.com/theyogabook/theyogabook.com/main/gif%20back.gif");
-
+    position: fixed;
   }
   .wrapper{
     user-select: none;
